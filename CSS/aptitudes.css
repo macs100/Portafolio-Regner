@@ -1,0 +1,36 @@
+.aptitudes >*{
+    margin: 20px 70px;
+}
+
+.aptitudes{
+    display: grid;
+    grid-template-rows:max-content;
+    grid-template-areas:
+    'titulo titulo titulo' 
+    'desarrollo-web programacion extras'
+    'actual actual actual'
+    ;
+}
+
+.titulo{
+    grid-area: titulo;
+    margin: 10px 70px;
+}
+
+.desarrollo-web{
+    grid-area: desarrollo-web;
+}
+
+.programacion{
+    grid-area: programacion;
+}
+
+.extras{
+    grid-area: extras;
+}
+
+.aptitudes p{
+    grid-area: actual;
+
+    text-align: center;
+}

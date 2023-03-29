@@ -1,0 +1,51 @@
+.resumen{
+    padding-left: 30px;
+    display: flex;
+}
+
+.resumen img{
+    max-height: 140px;
+    border-radius: 20%;
+    margin: 0px 20px;
+}
+
+.descripcion{
+    padding: 30px 10px;
+}
+
+.descripcion p{
+    width: 90%;
+}
+
+.descripcion a{
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    margin-top: -10px;
+    color: rgb(100, 214, 83);
+    text-decoration: none;
+}
+
+.columnas{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.typewrite{
+    position: relative
+}
+
+.typewrite::after{
+    content: '';
+    width: 1px;
+    animation: blink 1s infinite;
+    border-right: 5px solid white;
+    margin-left: 0.5rem;
+}
+
+@keyframes blink{
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
+}
