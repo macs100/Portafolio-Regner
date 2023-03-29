@@ -1,7 +1,7 @@
 typeWriterEffect()
 
 function typeWriterEffect(){
-    const words = ['Técnico informático', 'programador', 'desarrollador web', 'estudiante', 'autodidacta'];
+    const words = ['Técnico informático', 'Programador', 'Desarrollador web', 'Estudiante', 'Autodidacta'];
     let wordCount = 0;
     let letterCount = 0;
     let currentText = '';
