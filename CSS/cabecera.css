@@ -42,7 +42,7 @@
     width: 1px;
     animation: blink 1s infinite;
     border-right: 5px solid white;
-    margin-left: 0.5rem;
+    margin-left: 0.1rem;
 }
 
 @keyframes blink{
