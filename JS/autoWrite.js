@@ -28,10 +28,10 @@ function typeWriterEffect(){
         timeOut = isDeleting? 50:100;
 
         if (!isDeleting && currentText.length === currentWord.length){
-            timeOut = 2000;
+            timeOut = 1500;
             isDeleting = true
         } else if (isDeleting && currentText.length === 0){
-            timeOut = 500;
+            timeOut = 100;
             isDeleting = false;
             wordCount++;
         }
