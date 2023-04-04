@@ -39,13 +39,6 @@
         grid-area: textito;
         padding: 20px;
     }
-
-    /*.aptitudes li{
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        grid-template-areas: 
-        'tema barra';
-    }*/
     
     .aptitudes li p{
         grid-area: tema;

@@ -11,19 +11,7 @@ h3{
     color: rgb(15, 116, 248);
 }
 
-.showcase{
-    display: grid;
-    grid-template-columns: 50%;
-    grid-template-rows: 150px;  
-    grid-template-areas: 
-    'hero hero'
-    'resumen descripcion'
-    'aptitudes aptitudes'
-    
-    'estudios premios'
-    'estudios premios'
-    ;
-}
+
 
 .premios{
     grid-area: premios;
