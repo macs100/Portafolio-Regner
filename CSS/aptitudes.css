@@ -1,15 +1,18 @@
 .aptitudes >*{
-    margin: 20px 70px;
+    padding: 20px;
 }
 
 .aptitudes{
     display: grid;
+    
     grid-template-rows:max-content;
+    grid-template-columns: repeat(3, calc(33vw - 3px));
     grid-template-areas:
     'titulo titulo titulo' 
     'desarrollo-web programacion extras'
-    'actual actual actual'
+    'textito textito textito'
     ;
+    max-width: 100vw;
 }
 
 .titulo{
@@ -19,18 +22,60 @@
 
 .desarrollo-web{
     grid-area: desarrollo-web;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .programacion{
     grid-area: programacion;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .extras{
     grid-area: extras;
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .aptitudes p{
     grid-area: actual;
+    text-align: left;
+}
 
-    text-align: center;
+.aptitudes .resumen{
+    grid-area: textito;
+    justify-content: center;
+}
+
+.aptitudes li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*
+.aptitudes li p{
+    text-align: right;
+}*/
+
+.aptitudes li{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: 
+    'tema barra';
+}
+
+.aptitudes li p{
+    grid-area: tema;
+}
+
+.aptitudes .barra{
+    grid-area: barra;
+}
+.barra{
+    width: 100%!important;
 }
