@@ -13,14 +13,7 @@
     padding: 30px 10px;
 }
 
-.descripcion p{
-    padding: 0px 10px;
-}
-
 .descripcion a{
-    justify-content: end;
-    align-items: end;
-    text-align: end;
     margin-top: -10px;
     color: rgb(15, 116, 248);
     text-decoration: none;
