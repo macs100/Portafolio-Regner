@@ -39,16 +39,38 @@
         grid-area: textito;
         padding: 20px;
     }
-
-    /*.aptitudes li{
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        grid-template-areas: 
-        'tema barra';
-    }*/
     
     .aptitudes li p{
         grid-area: tema;
+    }
+    
+    .aptitudes .barra{
+        grid-area: barra;
+    }
+    .barra{
+        width: 100%!important;
+    }
+}
+
+@media (max-width:700px){
+    .showcase{
+        display: grid;
+        grid-template-columns: 50%;
+        grid-template-rows: 150px;  
+        grid-template-areas: 
+        'hero hero'
+        'resumen resumen'
+        'descripcion descripcion'
+        'aptitudes aptitudes'
+        
+        'estudios premios'
+        'estudios premios'
+        ;
+    }
+
+    .descripcion{
+        justify-content: center;
+        text-align: center;
     }
     
     .aptitudes .barra{

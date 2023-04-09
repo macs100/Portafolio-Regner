@@ -3,15 +3,7 @@
 }
 
 .aptitudes{
-    display: grid;
-    
-    grid-template-rows:max-content;
-    grid-template-columns: repeat(3, calc(33vw - 3px));
-    grid-template-areas:
-    'titulo titulo titulo' 
-    'desarrollo-web programacion extras'
-    'textito textito textito'
-    ;
+    /*en grids.css*/
     max-width: 100vw;
 }
 
@@ -62,12 +54,6 @@
     text-align: right;
 }*/
 
-.aptitudes li{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-areas: 
-    'tema barra';
-}
 
 .aptitudes li p{
     grid-area: tema;
